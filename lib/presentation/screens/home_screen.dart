@@ -20,6 +20,10 @@ class HomeScreen extends StatelessWidget {
             subtitle: const Text("gestor de estado compuesto"),
             trailing: const Icon(Icons.arrow_forward_ios_rounded),
             onTap: () => context.push('/counter-bloc'),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8.0),
+            child: Divider(),
           )
         ],
       ),
